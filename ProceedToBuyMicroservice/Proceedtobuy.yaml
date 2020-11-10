@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: proceedtobuyrepository
-        image: rbankcr.azurecr.io/proceedtobuyrepository:latest
+        image: containerr1.azurecr.io/proceedtobuyrepository:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: redone
+      - name: dsconfigsn
 
 ---
 apiVersion: v1
